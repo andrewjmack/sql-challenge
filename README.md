@@ -22,7 +22,7 @@ The EmployeeSQL folder contains the sql database schema for creation (engineerin
 ## Files
 - ERD
 - EmployeeSQL
--   /schema.sql
+-  - /schema.sql
 -   /queries.sql 
 - data
 -   /departments.csv
