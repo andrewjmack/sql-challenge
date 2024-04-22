@@ -21,7 +21,6 @@ LIKE '1986-%'
 ;
 
 -- List the manager of each department along with their department number, department name, employee number, last name, and first name
--- dept mgr employee nums 
 SELECT dept_manager.dept_no AS "Department No.",
     departments.dept_name AS "Department Name",
     dept_manager.emp_no AS "Employee No.",
