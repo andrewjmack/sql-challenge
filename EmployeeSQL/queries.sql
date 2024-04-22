@@ -91,5 +91,5 @@ WHERE dept_emp.dept_no = 'd007'
 SELECT employees.last_name AS "Last Name", COUNT(employees.last_name) AS "Frequency"
 FROM employees
 GROUP BY employees.last_name
-ORDER BY employees.last_name DESC
+ORDER BY "Frequency" DESC
 ;
