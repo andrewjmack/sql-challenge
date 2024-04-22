@@ -12,25 +12,25 @@ This Challenge is divided into three parts:
 
 An entity relationship diagram ("ERD") visually models the schema.
 
-The EmployeeSQL folder contains the sql database schema for creation (engineering) as well as a queries file for the analysis.
+The EmployeeSQL folder contains the sql database schema for creation (engineering) and a queries file for the analysis.
 
 ### NOTE:
-    (1) Tables should be created in the schema order provided, to avoid potential issues with key mapping between the tables.
+- Tables should be created in the schema order provided, to avoid potential issues with key mapping between the tables.
 
-    (2) Before queries can be run but after database and tables creation, the .csv files in the data folder must be imported to the database tables corresponding with their respective file names.
+- Before queries can be run but after database and tables creation, the .csv files in the data folder must be imported to the database tables corresponding with their respective file names.
 
 ## Files
 - ERD
 - EmployeeSQL
     - /schema.sql
--   /queries.sql 
+    - /queries.sql 
 - data
--   /departments.csv
--   /dept_emp.csv
--   /dept_manager.csv
--   /employees.csv
--   /salaries.csv
--   /titles.csv
+    - /departments.csv
+    - /dept_emp.csv
+    - /dept_manager.csv
+    - /employees.csv
+    - /salaries.csv
+    - /titles.csv
 
 ## Resources
 - CSV data files provided by the bootcamp
